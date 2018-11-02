@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anjana/Documents/OSCA/system/Engine/hash.h
+stdlib.h
+/home/anjana/Documents/OSCA/system/Engine/stdlib.h
+memory.h
+/home/anjana/Documents/OSCA/system/Engine/memory.h
+stdio.h
+/home/anjana/Documents/OSCA/system/Engine/stdio.h
+assert.h
+/home/anjana/Documents/OSCA/system/Engine/assert.h
+string.h
+/home/anjana/Documents/OSCA/system/Engine/string.h
+iostream
+-
+
+/home/anjana/Documents/OSCA/system/Engine/main.cpp
+iostream
+-
+hash.h
+/home/anjana/Documents/OSCA/system/Engine/hash.h
+
