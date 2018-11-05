@@ -58,11 +58,11 @@ setAgo () {
 		curAgo=$(cut -d "@" -f 2 <<< "$line");
 		break;
 	done < "ago"
-	if [ -s "ago" ]
-	then
-	if [ curAgo ]
-		echo "ago=\"date -Rd @$(stat -c %Y $1)\"" > ago;
-	fi
+	# if [ -s "ago" ]
+	# then
+	# if [ curAgo ]
+	# 	echo "ago=\"date -Rd @$(stat -c %Y $1)\"" > ago;
+	# fi
 }
 
 
