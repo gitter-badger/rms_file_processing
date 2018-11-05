@@ -138,7 +138,7 @@ do
 						statusB=$(curl "$host/$mD/logger$lgs/$dB/$hB/$mB.wma" -o "$fileB" -z "$(eval $ago)" -R -s -w '%{http_code}')
 
 
-						if [ $statusA = '226' ] && [ $statusB = '226' ]
+						if [ "$statusA" == '226' ] && [ "$statusB" == '226' ]
 						then
 
 							if [ -e "$fileA" ] && [ -e "$fileB" ]
